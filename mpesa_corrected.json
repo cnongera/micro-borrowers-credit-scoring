@@ -1,0 +1,73 @@
+{
+  "borrower_name": "Clement Ongera Nyangoya",
+  "file_name": "Clement Ongera Nyangoya Mpesa.csv",
+  "features": {
+    "duration_days": 364,
+    "duration_months": 12.0,
+    "start_date": "2024-03-22",
+    "end_date": "2025-03-22",
+    "total_inflow": 1008803.0,
+    "total_outflow": 1010554.0,
+    "net_cashflow": -1751.0,
+    "total_tx_count": 1215,
+    "tx_velocity_per_day": 3.34,
+    "mean_monthly_inflow": 84355.61,
+    "median_monthly_inflow": 37790.0,
+    "inflow_stability_cv": 1.13,
+    "overall_avg_balance": 6394.97,
+    "lowest_balance": 0.15,
+    "peak_balance": 104439.15,
+    "salary_inflow": 743310.0,
+    "salary_count": 68,
+    "mmf_invested": 119600.0,
+    "mmf_received": 117500.0,
+    "bank_interaction_count": 140,
+    "bank_volume": 66980.0,
+    "sacco_invested": 6100.0,
+    "sacco_received": 0.0,
+    "sacco_count": 11,
+    "overdraft_count": 0,
+    "has_overdraft_distress": false,
+    "days_past_due": 0,
+    "hhi": 0.5673,
+    "n_sources": 4,
+    "net_flow_ratio_adj": 1.1401
+  },
+  "scoring": {
+    "credit_score": 641,
+    "rating": "A",
+    "tier": "Fair (Tier 3 Moderate)",
+    "decision": "CONDITIONAL APPROVAL",
+    "pillars": {
+      "velocity_volume": 104.75,
+      "repayment_capacity": 73.48,
+      "liquidity_buffer": 44.77,
+      "financial_diversity": 63.46,
+      "credit_discipline": 55.0
+    },
+    "max_points": {
+      "velocity_volume": 137.5,
+      "repayment_capacity": 137.5,
+      "liquidity_buffer": 110.0,
+      "financial_diversity": 110.0,
+      "credit_discipline": 55.0
+    }
+  },
+  "simulator": {
+    "loan_amount": 30000.0,
+    "duration_months": 3,
+    "interest_rate_pct": 10.0,
+    "monthly_repayment": 11000.0,
+    "total_repayment": 33000.0,
+    "inflow_to_loan_ratio": 2.81,
+    "repayment_burden_pct": 13.0,
+    "median_burden_pct": 29.1,
+    "burden_threshold_pct": 25.0,
+    "past_due_days": 0,
+    "is_high_risk": 0,
+    "status": "LOW RISK (APPROVED)",
+    "decision": "APPROVED",
+    "max_safe_loan_mean": 57515.0,
+    "max_safe_loan_median": 25766.0
+  }
+}
