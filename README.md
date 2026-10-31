@@ -16,8 +16,8 @@ The ledger shows perfect discipline (zero Fuliza penalties) and real diversity (
 
 ## Repository Contents
 * `credit_scorer.py`: The complete, standalone Python scoring engine.
-* `MBMCS_Paper.md`: The full research paper detailing the methodology, math, and limitations.
-* `MBMCS_Paper.pdf`: The typeset PDF version of the paper (generated via Kami(https://github.com/tw93/Kami)).
+* `Clement_Ongera_Nyangoya_MBMCS_Research_Paper.md`: The full research paper detailing the methodology, math, and limitations.
+* `Clement_Ongera_Nyangoya_MBMCS_Research_Paper.pdf`: The typeset PDF version of the paper (generated via Kami(https://github.com/tw93/Kami)).
 * `mpesa_corrected.json`: The raw output of the scoring engine applied to the author's real ledger.
 
 ## Usage
